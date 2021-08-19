@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Curriculum vitae</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+        :root{
+            --color-subtitulos: #025cb6;
+        }
+        
+        img{
+            width:100px;
+            height: auto;
+        }
+
+        table{
+            width: 100%;
+        }
+        td{
+            text-align: center;
+            align-content: stretch;
+            padding-bottom: 5px;
+        }
+
+        a {
+            outline: none;
+            text-decoration: none;
+            padding: 2px 1px 0;
+        }
+
+        a:link {
+            color: ivory;
+        }
+
+        a:visited {
+            color: grey;
+        }
+
+        a:focus {
+            border-bottom: 1px solid;
+            background:lightblue;
+        }
+
+        a:hover {
+            border-bottom: 1px solid;
+            background: lightskyblue;
+        }
+
+        a:active {
+            background: #265301;
+            color: lightsteelblue;
+        }
+
+        .titulo{
+            font-family: 'Rajdhani', sans-serif;
+            font-size: xx-large;
+            color: #004488;
+            border-style: none none double none;
+        }
+        .subtitulo{
+            font-family: 'Rajdhani', sans-serif;
+            font-size: x-large;
+            color: var(--color-subtitulos);
+            border-style: none none solid none;
+        }
+        .campo{
+            font-style: italic;
+        }
+        .link{
+            font-family: monospace;
+            font-style: oblique;
+        }
+        .seccion{
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: large;
+            background-color: rgb(217, 233, 255);
+            border-style: hidden;
+            border-radius: 10px;
+        }
+        .barra{
+            width: 100%;
+            
+            background-color: #ddd;
+        }
+        .skill{
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+            background-color: #2196F3;
+        }
+        .eng{
+            width:90%; 
+        }
+        .esp{
+            width: 100%;
+        }
+        .office{
+            width:40%; 
+        }
+        .gimp{
+            width: 35%;
+        }
+        .unreal{
+            width: 20%;
+        }
+        .googling{
+            width: 85%;
+        }
+        .adaptability{
+            width: 70%;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+               <img src="./images/foto.jpg">
+            </td>
+            <td>
+                <div class="titulo" style="border-style: inherit;">Miguel Antonio Ruiz Vidaurri</div>
+            </td>
+        </tr>
+    </table>
+    <div class="subtitulo">Basic info</div>
+    <div class="seccion">
+        <table>
+            <tr>
+                <td class="campo">Phone number</td>
+                <td>3338420495</td>
+            </tr>
+            <tr>
+                <td class=campo>Age</td>
+                <td>28 years</td>
+            </tr>
+            <tr>
+                <td class=campo>Nationality</td>
+                <td>Mexican</td>
+            </tr>
+        </table>
+    </div> 
+    <div class="subtitulo">Education</div>
+    <div class="seccion">
+        <table>
+            <tr>
+                <td class="campo" colspan="2">Completed</td>
+            </tr>
+            <tr>
+                <td>SEP - EST #27</td>
+                <td>Middleschool with mechanography diploma</td>
+            </tr>
+            <tr>
+                <td>Universidad de Guadalajara - Preparatoria #10</td>
+                <td>Highschool with technical degree in Administration</td>
+            </tr>
+            <tr>
+                <td class="campo" colspan="2"><br>Ongoing</td>
+            </tr>
+            <tr>
+                <td>Universidad de Guadalajara - CUCEI</td>
+                <td>Informatics Engineering (4th semester)</td>
+            </tr>
+        </table>
+    </div>    
+    <div class="subtitulo">Skills</div>
+    <div class="seccion" style="background-color: inherit;">
+        <table>
+            <tr><td colspan="2" class="campo">Languages</td></tr>
+            <tr>
+                <td>English
+                    <div class="barra">
+                        <div class="skill eng">90% </div>
+                    </div>
+                </td>
+                <td>Spanish
+                    <div class="barra">
+                        <div class="skill esp">100% </div>
+                    </div>
+                </td>
+            </tr>
+            <tr><td colspan="2" class="campo">Software</td></tr>
+            <tr>
+                <td>Office
+                    <div class="barra">
+                        <div class="skill office">40% </div>
+                    </div>
+                </td>
+                <td>Gimp
+                    <div class="barra">
+                        <div class="skill gimp">35% </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Unreal Engine 4
+                    <div class="barra">
+                        <div class="skill unreal">20% </div>
+                    </div>
+                </td>
+            </tr>
+            <tr><td colspan="2" class="campo">General</td></tr>
+            <tr>
+                <td>Googling
+                    <div class="barra">
+                        <div class="skill googling">85% </div>
+                    </div>
+                </td>
+                <td>Adaptability
+                    <div class="barra">
+                        <div class="skill adaptability">70% </div>
+                    </div>
+                 </td>
+            </tr>
+        </table>
+        
+        
+        
+        
+        
+        
+        
+           
+    </div>
+
+    <div class="subtitulo">Experience</div>
+    <div class="seccion">
+        <table>
+            <tr>
+                <td class="campo">Nov 2010- Oct 2014</td>
+                <td><b>Self-employee at Nexus Nova stationer's shop & internet</b></td>
+            </tr>
+            <tr>
+                <td colspan="2" >Manager of a small company with 5 employees, functions included inventory control,  basic accounting and general management. I was also responsible for maintaining computer equipment, both software and hardware wise.</td>
+            </tr>
+            <tr>
+                <td class="campo">Feb 2016 - Sept 2017</td>
+                <td><b>Validation technician/POC  for Kelly Services at Intel</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">Validation technician employed by Kelly Services to work for Intel  driver validation team. Functions included handling of hardware components, execution of functional tests, hardware debugging, and  reporting of software related issues.  I also acted as hardware Point of Contact, in charge of inventory control, verification of reported hardware malfunction and issuing of repair tickets.</td>
+            </tr>
+            <tr>
+                <td class="campo">March - June 2018</td>
+                <td><b>HelpDesk for Mundo Genius</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">IT helpdesk with a broad range of tasks, including:
+                    <ul style="text-align: left;">
+                        <li>1st level support</li>
+                        <li>Network monitoring and maintenance</li>
+                        <li>PC maintenance</li>
+                        <li>Server monitoring, maintenance, and general management (windows server 2008)</li>
+                        <li>ERP (SAI) Backup and access control</li>
+                        <li>ERP Product lists update and user access management</li>
+                        <li>ERP Merchandise movement and resolution of request tickets</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="campo"> Aug 2020  - July 2021</td>
+                <td><b>Customer service agent for Alorica</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">Agent in a campaign for an online retail sales company. Main focus included processment of payment methods, account upgrades, and basic technical troubleshooting in both english and spanish for american customers. Needed to manage transfers and escalation as well as the issuing of reports in real time,</td>
+            </tr>
+        </table>
+    </div>  
+    <div class="subtitulo">Professional interests</div>
+    <div class="seccion">
+        <ul>
+            <li>GameDev</li>
+            <li>Functional programming</li>
+            <li>Regex usage</li>
+            <li>QA</li>
+            <li>Teaching</li>
+        </ul>
+    </div>
+    <div class="subtitulo">References</div>
+    <div class="seccion">
+        <ul>
+            <li>John Doe  -  JohnD@placeholder.com </li>
+            <li>Jane Roe  -  Jane@fictionalnames.org</li>
+        </ul>
+    </div>
+    <div class="seccion" style="background-color: rgb(55, 103, 206); text-align: center;">
+        <a href="www.linkedin.com/in/rvidaurri">LinkedIn</a>
+        <a href="/www.instagram.com/cc_marv">Instagram</a>
+        <a href="www.facebook.com/CCM4rv">Facebook</a>
+    </div>
+    
+</body>
+</html>
